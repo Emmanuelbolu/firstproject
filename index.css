@@ -1,0 +1,25 @@
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 5vw;
+    background-color:  #FFFFFF;
+}
+.box-2{
+    background-color: rgba(229, 222, 255, 0.62);
+    align-items: center;
+}
+@media screen and (min-width : 1024px) {
+    .hamburger{
+        display: none;
+        }
+        .box-3{
+            display: flex;
+            align-items: center;
+        }
+}
+@media screen and (max-width : 320px) {
+    .box-3{
+        display: none;
+    }
+    
+}
