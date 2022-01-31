@@ -118,3 +118,13 @@
     }
 
 }
+
+#faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(243, 243, 243);
+}
+#text, #open{
+    display: none;
+}
