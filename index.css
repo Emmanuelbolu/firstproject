@@ -14,8 +14,8 @@
         text-align: center;
         padding-left: 20px;
     }
-@media screen and (min-width : 1024px) {
-    .hamburger{
+/* @media screen and (min-width : 1024px) {
+    #hamburger{
         display: none;
         }
         .box-2{
@@ -114,10 +114,23 @@
         
         
 
-}
+} */
 @media screen and (max-width : 749px) {
     .box-3{
+        width: 100%;
+        position: fixed;
         display: none;
+        margin-top: 18%;
+        z-index: 100;
+        background-color: #9380d3;
+        opacity: 0.9;
+    }
+    .box-3 div{
+        text-align: center;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding: 2vh 0vw;
+        position: relative;
     }
     .box-4{
         width: 75%;
