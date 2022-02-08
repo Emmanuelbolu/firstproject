@@ -19,7 +19,7 @@
         display: none;
     }
         .box-2{
-        height:751px ;
+        height:px ;
         }
         .box-20{
             word-break: keep-all;
@@ -109,6 +109,14 @@
         .box-16{
             word-break: break-all;
         }
+        .box-25{
+            height: 40px;
+        position: fixed;
+        left: calc(50% - 1478px/2 - 3px);
+        width: 1478px;
+        height: 109px;
+        top: 0px;
+        }
         
     } 
 
@@ -123,6 +131,13 @@
         margin-top: 18%;
         z-index: 100;
         background-color: #FFFFFF;
+    }
+    .box-25{
+       position: fixed;
+     width: 100%;
+     top: 0px;
+       
+
     }
     .box-23{
         margin-left: 32%;
